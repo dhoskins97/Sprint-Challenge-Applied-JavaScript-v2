@@ -11,12 +11,6 @@
 
 const headerContainer = document.querySelector('.header-container');
 
-// function logger(){
-//     console.log(headerContainer)
-// };
-
-// logger()
-
 headerContainer.appendChild(headerCreator())
 
 function headerCreator() {
